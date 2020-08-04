@@ -35,3 +35,8 @@ showResults( ourList, 'pop')
 # reverse the list
 ourList.reverse()
 showResults( ourList, 'reverse the list' )
+
+# Let's create another list to use sort method
+aList = [ 3, 5, 2, 1, 6, 8, 4 ]
+aList.sort()
+showResults( aList, "sorting" ) 
