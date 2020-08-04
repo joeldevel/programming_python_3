@@ -31,3 +31,7 @@ showResults( ourList, 'insert')
 
 ourList.pop(-1);
 showResults( ourList, 'pop')
+
+# reverse the list
+ourList.reverse()
+showResults( ourList, 'reverse the list' )
