@@ -40,3 +40,7 @@ showResults( ourList, 'reverse the list' )
 aList = [ 3, 5, 2, 1, 6, 8, 4 ]
 aList.sort()
 showResults( aList, "sorting" ) 
+
+# a tuple
+point = ( 0.3, 0.5)
+print( point[0], point[1] )
